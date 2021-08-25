@@ -74,3 +74,76 @@ module.exports = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function createCoupon(coupon){
+
+//     const newCoupon = createCoupon(coupon.code);
+//     const coupons = createCoupon();
+//     if (!newCoupon) {
+//         const newCoupons = {
+//             coupon: coupon.code,
+//             couponDate: coupon.couponDate,
+//             isRedeem : coupon.isRedeem
+//         }
+//         coupons.push(newCoupon);
+//         setUsers(users);
+//         return true;
+//     }
+//     return false;
+
+
+// }
+
+// function getAllCoupons(code){
+//     const allCoupons = getAllCoupons();
+//     const foundCoupon = allCoupons.find(existingCoupon => existingCoupon.code === code);
+//     return foundCoupon;
+// }
+
+// function update(code, data) {
+//     const coupons = createCoupon();
+//     const foundCoupon = coupons.find(existingCoupon => existingCoupon.code === code);
+//     if (!foundCoupon) return false;
+//     Object.keys(foundCoupon).forEach(key => {
+//         if (data[key]) {
+//             foundCoupon[key] = data[key];
+//         }
+//     });
+//     setCoupons(coupons);
+//     return foundCoupon;
+
+//     function deleteCoupon(code) {
+//         const coupons = getAllCoupons();
+//         const filter = coupons.filter(existingCoupon => existingCoupon.code !== code);
+//         setCoupons(filteredCoupons);
+//     }
